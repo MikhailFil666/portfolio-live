@@ -1,0 +1,32 @@
+:root {
+  /* цвета приблизительные — уточнить по Figma Dev Mode / пипетке */
+  --color-bg: #000000;
+  --color-surface: #161616;
+  --color-border: rgba(255, 255, 255, 0.12);
+  --color-text: #ffffff;
+  --color-text-muted: #8a8a8a;
+  --color-accent-red: #e8262e;
+  --color-accent-green: #2ba86b;
+  --color-accent-pink: #c7328f;
+
+  --color-text-secondary: rgba(255, 255, 255, 0.72);
+
+  --font-heading: "Suisse Intl", Arial, sans-serif;
+  --font-body: "Suisse Intl", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+
+  /* сетка: референс 1440px / 8 колонок / поля 30px / гаттер 15px, resize до 1920px */
+  --container-max: 1920px;
+  --side-margin: clamp(30px, 2.0833vw, 40px);
+  --gutter: clamp(15px, 1.0417vw, 20px);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-8: 48px;
+  --space-10: 64px;
+  --space-12: 96px;
+}

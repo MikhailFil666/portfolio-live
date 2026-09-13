@@ -1,0 +1,80 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  background: var(--color-bg);
+}
+
+.stub {
+  position: relative;
+  height: calc(100vh - 40px);
+  aspect-ratio: 1440 / 810;
+  margin: 20px auto;
+}
+
+.stub__headline {
+  position: absolute;
+  left: 33.415%;
+  top: 2.458%;
+  width: 8.254%;
+  height: 11.435%;
+}
+
+.stub__link {
+  position: absolute;
+}
+
+.stub__link img {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+
+.stub__link--telegram {
+  left: 30.433%;
+  top: 93.014%;
+  height: 1.69%;
+}
+
+.stub__link--vk {
+  left: 33.403%;
+  top: 96.239%;
+  height: 1.674%;
+}
+
+.stub__photo {
+  position: absolute;
+  left: 21.111%;
+  top: 21.111%;
+  width: 24.642%;
+  height: 27.409%;
+  cursor: none;
+}
+
+.stub__photo-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.stub__signature {
+  position: absolute;
+  left: 62.014%;
+  top: 65.775%;
+  width: 18.037%;
+  height: 39.638%;
+}
+
+.cursor-gif {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 10;
+}
+
+.cursor-gif.is-active {
+  display: block;
+}
