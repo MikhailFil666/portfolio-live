@@ -78,3 +78,90 @@ body {
 .cursor-gif.is-active {
   display: block;
 }
+
+@media (max-width: 1024px) {
+  html,
+  body {
+    height: auto;
+    overflow: auto;
+  }
+
+  .stub {
+    height: auto;
+    width: 100%;
+    aspect-ratio: 768 / 1024;
+    margin: 0 auto;
+  }
+
+  .stub__headline {
+    left: 49.87%;
+    top: 59.766%;
+    width: 15.475%;
+    height: 9.046%;
+  }
+
+  .stub__link--telegram {
+    left: 30.729%;
+    top: 79.007%;
+    height: 5.371%;
+  }
+
+  .stub__link--vk {
+    left: 49.87%;
+    top: 86.82%;
+    height: 5.273%;
+  }
+
+  .stub__photo {
+    left: 15.104%;
+    top: 10.547%;
+    width: 69.797%;
+    height: 32.751%;
+  }
+
+  .stub__signature {
+    left: 50.104%;
+    top: 34.217%;
+    width: 12.543%;
+    height: 13.049%;
+  }
+}
+
+@media (max-width: 600px) {
+  .stub {
+    aspect-ratio: 375 / 812;
+  }
+
+  .stub__headline {
+    left: 50.133%;
+    top: 61.7%;
+    width: 31.695%;
+    height: 11.408%;
+  }
+
+  .stub__link--telegram {
+    left: 21.067%;
+    top: 81.773%;
+    height: 4.981%;
+  }
+
+  .stub__link--vk {
+    left: 50.133%;
+    top: 88.793%;
+    height: 4.934%;
+  }
+
+  .stub__photo {
+    left: 4%;
+    top: 17.858%;
+    width: 91.999%;
+    height: 26.582%;
+  }
+
+  .stub__signature {
+    left: 50.135%;
+    top: 37.069%;
+    width: 16.533%;
+    height: 10.591%;
+  }
+}
