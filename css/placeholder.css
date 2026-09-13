@@ -110,7 +110,8 @@ body {
   }
 
   .stub__link--telegram {
-    left: 30.729%;
+    right: 50.13%;
+    left: auto;
     top: 79.007%;
     height: 5.371%;
   }
@@ -142,7 +143,8 @@ body {
   }
 
   .stub__link--telegram {
-    left: 21.067%;
+    right: 49.867%;
+    left: auto;
     top: 81.773%;
     height: 4.981%;
   }
