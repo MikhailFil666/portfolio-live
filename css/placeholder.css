@@ -65,6 +65,15 @@ body {
   height: 39.638%;
 }
 
+@media (max-width: 1024px) {
+  .stub__signature {
+    left: 49.781%;
+    top: 72.269%;
+    width: 17.971%;
+    height: 39.844%;
+  }
+}
+
 .cursor-gif {
   display: none;
   position: fixed;
@@ -113,17 +122,10 @@ body {
   }
 
   .stub__photo {
-    left: 15.104%;
+    left: 15.359%;
     top: 10.547%;
     width: 69.797%;
     height: 32.751%;
-  }
-
-  .stub__signature {
-    left: 50.104%;
-    top: 34.217%;
-    width: 12.543%;
-    height: 13.049%;
   }
 }
 
@@ -152,16 +154,9 @@ body {
   }
 
   .stub__photo {
-    left: 4%;
+    left: 4.335%;
     top: 17.858%;
     width: 91.999%;
     height: 26.582%;
-  }
-
-  .stub__signature {
-    left: 50.135%;
-    top: 37.069%;
-    width: 16.533%;
-    height: 10.591%;
   }
 }
